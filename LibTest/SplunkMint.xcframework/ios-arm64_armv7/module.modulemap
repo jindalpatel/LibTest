@@ -1,6 +1,6 @@
 framework module SplunkMint {
     
-    umbrella header "SplunkMint.h"
+    //umbrella header "SplunkMint.h"
 //    header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/SplunkMint.h"
 //    header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/Mint.h"
 //    header "/Users/jindalp/Documents/ExampleXCTest/SplunkMint.xcframework/ios-arm64_armv7/Headers/MintEnums.h"
