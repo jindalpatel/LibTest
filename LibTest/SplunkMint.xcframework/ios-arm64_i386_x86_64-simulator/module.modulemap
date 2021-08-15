@@ -12,6 +12,6 @@ framework module SplunkMint {
     
     
     export *
-    module * { export * }
+  //  module * { export * }
 
 }
