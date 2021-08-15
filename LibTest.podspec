@@ -19,6 +19,14 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   spec.platform     = :ios, '12.0'
   spec.swift_version = '5.0'
+  spec.vendored_frameworks = "SplunkMint.xcframework"
+  spec.frameworks = [
+    "SystemConfiguration",
+    "CoreTelephony",
+    "WebKit",
+    "CoreLocation"
+  ]
+  spec.libraries = "z"
 
 
 end

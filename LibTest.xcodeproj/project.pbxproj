@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		682185AA26C9093A006D86BA /* LibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682185A926C9093A006D86BA /* LibTest.swift */; platformFilter = ios; };
-		682185B326C912FC006D86BA /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682185B026C90C9B006D86BA /* SplunkMint.xcframework */; };
+		682185B526C914CF006D86BA /* SplunkMint.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682185B426C914CF006D86BA /* SplunkMint.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		682185A626C9093A006D86BA /* libLibTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		682185A926C9093A006D86BA /* LibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibTest.swift; sourceTree = "<group>"; };
-		682185B026C90C9B006D86BA /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
+		682185B426C914CF006D86BA /* SplunkMint.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SplunkMint.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682185B326C912FC006D86BA /* SplunkMint.xcframework in Frameworks */,
+				682185B526C914CF006D86BA /* SplunkMint.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +61,8 @@
 		682185A826C9093A006D86BA /* LibTest */ = {
 			isa = PBXGroup;
 			children = (
-				682185B026C90C9B006D86BA /* SplunkMint.xcframework */,
 				682185A926C9093A006D86BA /* LibTest.swift */,
+				682185B426C914CF006D86BA /* SplunkMint.xcframework */,
 			);
 			path = LibTest;
 			sourceTree = "<group>";
